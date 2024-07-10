@@ -6,3 +6,31 @@
     padding: 2px;
     box-sizing: border-box;
 }
+
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.header{
+    background-color: #1F2937;
+}
+
+
+.header .banner .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header .banner .links a{
+    display: block;
+    font-size: 18px;
+    color: #EFE7EB;
+    text-decoration: none;
+}
+
+.banner{
+    display: flex;
+}
+
