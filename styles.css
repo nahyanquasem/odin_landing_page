@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before{
-    border: 1px solid blueviolet;
+    border: 1px solid green;
     margin: 2px;
     padding: 2px;
     box-sizing: border-box;
@@ -13,24 +13,24 @@ html{
 
 
 
-.header{
+.hero{
     background-color: #1F2937;
 }
 
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
 
-.header .banner .logo{
+
+.hero .banner .logo{
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.header .banner .links a{
+.hero .banner .links a{
     display: block;
     font-size: 18px;
     color: #EFE7EB;
     text-decoration: none;
 }
-
-.banner{
-    display: flex;
-}
-
