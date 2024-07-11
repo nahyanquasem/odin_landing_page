@@ -1,11 +1,11 @@
-/* *,
+*,
 *::after,
 *::before{
     border: 1px solid green;
     margin: 2px;
     padding: 2px;
     box-sizing: border-box;
-} */
+}
 
 html{
     font-family:Arial, Helvetica, sans-serif;
@@ -21,7 +21,7 @@ body{
 .hero{
     background-color: #1F2937;
     flex: 1;
-    padding: 20px 100px;
+    padding: 20px 30px;    
 }
 
 .banner{
@@ -31,7 +31,7 @@ body{
 
 .banner .links{
     display: flex;
-    gap: 10px
+    gap: 10px;
 }
 
 
@@ -50,12 +50,22 @@ body{
 .content{
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 400px;
 }
 
 .content .enlarged-text{
     font-size: 48px;
     font-weight:bolder;
     color: #F9FAF8;
+    min-width: 0;
 }
 
 .content .sub-text{
@@ -63,6 +73,32 @@ body{
     color: #EFE7EB
 }
 
-.content .button{
+.button{
+    background-color: #3882F6;
+    color: #EFE7EB;
+
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+.image{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 500px;
+
+    min-width: 0px;
+
+    background-color: #8E8E8E;
     color: #EFE7EB;
 }
