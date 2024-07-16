@@ -104,6 +104,7 @@ body{
 
 .image{
     margin-right: 100px;
+    transform: rotate(-20deg);
 
 }
 
