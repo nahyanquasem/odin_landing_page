@@ -61,7 +61,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .text{
@@ -103,20 +103,8 @@ body{
 }
 
 .image{
+    margin-right: 100px;
 
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: 500px;
-
-    min-width: 0px;
-
-    background-color: #8E8E8E;
-    color: #EFE7EB;
 }
 
 .first-section{
@@ -132,7 +120,7 @@ body{
     font-weight: 900;
     color: #1F2937;
 
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .images{
