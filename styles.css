@@ -41,7 +41,7 @@ body{
 
 .banner .links{
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
 
 
@@ -127,6 +127,10 @@ body{
 .images{
     
     display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
     gap: 50px;
 
     margin-bottom: 80px;
