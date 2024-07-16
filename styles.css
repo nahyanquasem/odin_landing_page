@@ -206,7 +206,7 @@ body{
 .action-box{
     background-color: #3882F6;
     border-radius: 10px;
-    height: 100px;
+    height: 150px;
     
     display: flex;
     justify-content: center;
@@ -227,7 +227,7 @@ body{
 }
 
 .third-section-text{
-    font-size: 18px;
+    font-size: 35px;
     font-weight: 900;
     color: #F9FAF8;
 
@@ -235,7 +235,7 @@ body{
 }
 
 .third-section-subtext{
-    font-size: 15px;
+    font-size: 20px;
     color: #EFE7EB
 }
 
@@ -248,12 +248,9 @@ body{
     color: #EFE7EB;
 
     border: 2px solid #EFE7EB;
-    padding: 10px 30px;
+    padding: 15px 35px;
 
     border-radius: 5px;
-
-
-
-
+    font-size: 25px;
 
 }
