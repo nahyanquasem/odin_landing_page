@@ -113,9 +113,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 500px;
     gap: 60px;
 }
 
+.quote-author,
 .heading{
     font-size: 36px;
     font-weight: 900;
@@ -167,4 +169,28 @@ body{
     display: block;
 }
 
+.second-section{
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 300px;
+    padding: 100px 0px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937
+
+}
+
+.quote-author{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 400px;
+}
